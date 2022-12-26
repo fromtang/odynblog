@@ -1,0 +1,35 @@
+
+<div class="mt-4">
+    <h3 class="pb-4 border-bottom">Create Blog</h3>
+
+    <form method="POST" action="/blogs/store">
+        
+        <div class="row mt-4 mb-3">
+            <label for="title" class="col-lg-1 offset-lg-1 text-start col-form-label">Title</label>
+            <div class="col-lg-9">
+                <input type="text" class="form-control" name="title">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="description" class="col-lg-1 offset-lg-1 text-start col-form-label">Description</label>
+            <div class="col-lg-9">
+                <input type="text" class="form-control" name="description">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="content" class="col-lg-1 offset-lg-1 text-start col-form-label">Content</label>
+            <div class="col-lg-9">
+                <input type="text" class="form-control" name="content">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-lg-12 text-center ">
+                <button id="#create" type="submit" value="Submit" class="btn btn-primary"><i class="fa-solid fa-right-to-bracket"></i>Create</button>
+            </div>
+        </div>
+
+    </form>
+</div>

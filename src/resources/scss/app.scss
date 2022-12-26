@@ -1,0 +1,18 @@
+@import 'variables';
+@import url('/node_modules/font-awesome/css/font-awesome.min.css');
+h1 {
+  color: $red_color;
+}
+
+#contnet{
+	background: var(--ck-sample-color-white);
+	box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+	border: 1px solid #DFE4E6;			
+	border-bottom-color: #cdd0d2;
+	border-right-color: #cdd0d2;
+}
+
+.ck.ck-editor__editable_inline>:first-child {
+  margin-top: var(--ck-spacing-large);
+  height: 200px;
+}
